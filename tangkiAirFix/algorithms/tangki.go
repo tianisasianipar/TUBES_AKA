@@ -1,6 +1,6 @@
 package algorithms
 
-// Asumsi: setiap lantai mengonsumsi 10 liter air
+// asumsi tiap lantai memakai 10 liter air
 const waterPerFloor = 10
 
 // ================= ITERATIF =================
@@ -19,3 +19,4 @@ func TotalWaterRecursive(n int) int {
 	}
 	return waterPerFloor + TotalWaterRecursive(n-1)
 }
+
