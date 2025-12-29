@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffffff;
+    margin: 40px;
+    color: #514659;
+}
+
+h1 {
+    text-align: center;
+    color: #514659;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #906470;
+    margin-bottom: 5px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.input-panel {
+    background: #ffc0cb;
+    padding: 25px;
+    border-radius: 14px;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+input {
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ae8c93;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #6b4c5d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #514659;
+}
+
+.result-box {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    background: #fdf1f5;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.chart-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.chart-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #6b4c5d;
+}
+
+/* ===== TABEL HASIL ===== */
+.result-table {
+    margin: 30px auto 60px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.result-table th,.result-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #f0c9d5;
+}
+
+.result-table th {
+    background: #f7dbe7;
+    color: #514659;
+    font-weight: 600;
+}
+
+.result-table tbody tr:hover {
+    background: #fff2f6;
+}

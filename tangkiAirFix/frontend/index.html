@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulasi Tangki Air</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <p class="subtitle">
+        Perbandingan Kompleksitas Waktu Algoritma Iteratif dan Rekursif
+    </p>
+    <h1 class="main-title">
+        Simulasi Pengosongan Tangki Air Gedung Bertingkat
+    </h1>
+
+    <div class="input-panel">
+        <h3>Masukkan Jumlah Lantai</h3>
+        <input type="number" id="inputN" value="100">
+        <br>
+        <button onclick="runAnalysis()">Jalankan Simulasi</button>
+    </div>
+
+    <div class="result-box">
+        <p><b>Waktu Eksekusi Iteratif:</b> <span id="iterTime">-</span> ms</p>
+        <p><b>Waktu Eksekusi Rekursif:</b> <span id="recTime">-</span> ms</p>
+    </div>
+
+    <h3 class="chart-title">Grafik Perbandingan Running Time</h3>
+    <div class="chart-container">
+        <canvas id="timeChart"></canvas>
+    </div>
+
+    <h3 class="chart-title">Tabel Perbandingan Hasil</h3>    
+    <table id="resultTable" class="result-table">
+        <thead>
+            <tr>
+                <th>N</th>
+                <th>Iteratif (ms)</th>
+                <th>Rekursif (ms)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
